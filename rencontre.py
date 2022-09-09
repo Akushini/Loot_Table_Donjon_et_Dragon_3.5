@@ -2,6 +2,8 @@ from utils import lancer_des, lancer_gemme, lancer_objet_art, tirer_objet_non_ma
     determiner_objet_magique_intermediaire, determiner_objet_magique_puissant
 import random
 
+"""Permet de définir les items avant l'appel des autres fonctions"""
+
 
 def rencontre(niveau_rencontre, facteur_tresor, sheetlist):
     # tirage aleatoire du tresor en pieces

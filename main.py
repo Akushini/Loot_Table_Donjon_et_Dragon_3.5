@@ -17,6 +17,8 @@ choix_menu = False
 butin = False
 tresor = False
 fin = False
+"""menu principal qui appelle toutes les autres fonctions du projet.
+Il demande si on veut tirer un trésor complet et sinon il propose de tirer des objets magiques uniquement"""
 while not tresor:
     while not choix_menu:
         butin = False

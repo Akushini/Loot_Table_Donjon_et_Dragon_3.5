@@ -29,6 +29,9 @@ def lancer_des(nombre_des, valeur_des):
     return somme
 
 
+"""définit aléatoirement un nom pour une catégorie de valeur et l'associe avant de déterminer une valeur aléatoire"""
+
+
 def lancer_gemme(valeur_des_gemmes):
     type1 = ['agate mousse', 'agate xiloïde', 'azurite', 'hématite', 'lapis-lazuli', 'malachite','obsidienne',
              'oeil-de-chat', 'oeil-de-tigre', 'perle irrégulière', 'quartz bleu', 'rhodochrosite', 'turaquoise']
@@ -64,6 +67,9 @@ def lancer_gemme(valeur_des_gemmes):
         nom_gemme = f'{random.choice(type6)}|{valeur}'
     valeur_des_gemmes += valeur
     return valeur_des_gemmes, valeur, nom_gemme
+
+
+"""définit aléatoirement un nom pour une catégorie de valeur et l'associe avant de déterminer une valeur aléatoire"""
 
 
 def lancer_objet_art(valeur_des_objets_arts):
